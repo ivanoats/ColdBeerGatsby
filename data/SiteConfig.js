@@ -25,7 +25,7 @@ module.exports = {
   userLinks: [
     {
       label: "Facebook",
-      url: "https://facebook.com/coldenoughbeeroutside",
+      url: "https://facebook.com/coldbeveragesoutside",
       iconClassName: "fa fa-facebook"
     },
     {
@@ -39,5 +39,5 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2017. Sustainable Websites LLC dba Good Paddle" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2017. Good Paddle" // Copyright string for the footer of the website and RSS feed.
 }
