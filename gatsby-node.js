@@ -3,6 +3,11 @@ const _ = require("lodash");
 const moment = require("moment");
 const siteConfig = require("./data/SiteConfig");
 
+
+if (process.env.NODE_ENV === 'development') {
+  process.env.GATSBY_WEBPACK_PUBLICPATH = '/'
+}
+
 const postNodes = [];
 
 function addSiblingNodes(createNodeField) {
